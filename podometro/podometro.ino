@@ -1,6 +1,6 @@
 #include <ArduinoBLE.h>
 
-const int led_pin = 13;
+const int led_pin = LED_BUILTIN; //Cambiar este pin dependiendo del pin a utilizar.
 
 BLEService podometroService("bdc1fe11-f4ab-41dc-af14-da79a495f3eb"); // Bluetooth® Low Energy LED Service
 
